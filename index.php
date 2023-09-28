@@ -1,8 +1,8 @@
-
-<?php 
-include("includes/includedFiles.php"); 
+#
+#<?php 
+#include("includes/includedFiles.php"); 
 #test 1 2 3
-?>
+#?>
 
-<script> openPage("browse.php")</script>
-
+#<script> openPage("browse.php")</script>
+echo penis
