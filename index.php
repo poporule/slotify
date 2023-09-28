@@ -1,7 +1,7 @@
 
 <?php 
 include("includes/includedFiles.php"); 
-#test
+#test 1
 ?>
 
 <script> openPage("browse.php")</script>
