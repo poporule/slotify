@@ -1,0 +1,20 @@
+/*je me sert de index pour lui*/
+
+.artistInfo{
+    text-align: center;
+}
+
+.button{
+
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    padding: 15px;
+    min-width: 130px;
+
+}
