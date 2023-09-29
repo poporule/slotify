@@ -8,7 +8,10 @@
 	include("includes/handlers/register-handler.php");
 	include("includes/handlers/login-handler.php");
 
+	// will trigger when an html form action (button) is  pressed
 	function getInputValue($name) {
+		
+		//PHP $_POST is a PHP super global variable which is used to collect form data after submitting an HTML form
 		if(isset($_POST[$name])) {
 			echo $_POST[$name];
 		}
