@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ynt680\\Code Projects\\slotify\\TodoApi\\TodoApi.csproj": {}
+    "/home/vince/Documents/SourceCode/slotify/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ynt680\\Code Projects\\slotify\\TodoApi\\TodoApi.csproj": {
+    "/home/vince/Documents/SourceCode/slotify/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ynt680\\Code Projects\\slotify\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "/home/vince/Documents/SourceCode/slotify/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\ynt680\\Code Projects\\slotify\\TodoApi\\TodoApi.csproj",
-        "packagesPath": "C:\\Users\\ynt680\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ynt680\\Code Projects\\slotify\\TodoApi\\obj\\",
+        "projectPath": "/home/vince/Documents/SourceCode/slotify/TodoApi/TodoApi.csproj",
+        "packagesPath": "/home/vince/.nuget/packages/",
+        "outputPath": "/home/vince/Documents/SourceCode/slotify/TodoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ynt680\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/vince/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +46,10 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -55,6 +57,14 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
+            },
+            "System.Threading.Channels": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "mysql.data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -76,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
         }
       }
     }
